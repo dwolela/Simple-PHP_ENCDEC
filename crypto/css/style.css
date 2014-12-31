@@ -1,0 +1,49 @@
+.hide{
+	display: none;
+}
+
+body{
+	color: #666;
+}
+header{
+	padding: 20px;
+	background: #ff0000;
+	color: #eee;
+	font-family: Roboto,"open sans",helvetica, arial, sans-serif;
+	margin-bottom: 20px;
+}
+.slideToggle{
+	border-bottom: 1px solid #666;
+	width:100%;
+	overflow: hidden;
+	padding-bottom: 0;
+	margin-top: 10px;
+}
+.slideToggle p{
+	cursor: pointer;
+	font-family: "open sans";
+	font-weight: "bold";
+	font-size:18px;
+	margin-bottom: 0;
+	
+}
+.slideToggle p:hover{
+	background: #eee;
+}
+#message{
+	
+	position: fixed;
+	top:0;
+	min-width: 100%;
+	display: block;
+
+	background: rgba(0,0,0,0.5);
+}
+#message p{
+	text-align: center;
+	width: 100%;
+	font-size: 52px;
+	color:white;
+	font-family: Roboto, helvetica, "open sans";
+	
+}
